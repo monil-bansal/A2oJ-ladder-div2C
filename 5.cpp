@@ -8,3 +8,4 @@ int main() {
 	for(i=2;i<=100001;i++)dp[i]=max(dp[i-1],dp[i]+dp[i-2]);
 	cout<<dp[i-1];
 }
+
